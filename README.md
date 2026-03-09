@@ -27,15 +27,17 @@ Which clinical and demographic factors best predict diabetes risk, and how does 
 
 The Pima Indians Diabetes 2 dataset includes diagnostic measurements from women aged 21 years or older.
 
-- pregnant:	Number of pregnancies
-- glucose:	Plasma glucose concentration
-- pressure:	Diastolic blood pressure
-- triceps:	Triceps skinfold thickness
-- insulin:	Serum insulin
-- mass:	Body mass index (BMI)
-- pedigree:	Diabetes pedigree function
-- age:	Age of participant
-- diabetes:	Diabetes status (positive/negative)
+| Variable | Description |
+|---------|-------------|
+| pregnant | Number of pregnancies |
+| glucose | Plasma glucose concentration |
+| pressure | Diastolic blood pressure |
+| triceps | Triceps skinfold thickness |
+| insulin | Serum insulin |
+| mass | Body mass index (BMI) |
+| pedigree | Diabetes pedigree function |
+| age | Age of participant |
+| diabetes | Diabetes status (positive/negative) |
 
 After removing missing values, the cleaned dataset contained 392 observations used for model training and evaluation. 
 
@@ -72,8 +74,10 @@ A baseline logistic regression model was fitted using the eight original predict
 
 Model performance was evaluated using the Area Under the Receiver Operating Characteristic Curve (AUC).
 
-- Training set:	0.8768
-- Test set:	0.8034
+| Dataset | AUC |
+|--------|------|
+| Training set | 0.8768 |
+| Test set | 0.8034 |
 
 The modest difference between training and test AUC suggests limited overfitting, indicating that the model generalises reasonably well to unseen data. 
 
