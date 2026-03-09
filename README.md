@@ -20,7 +20,7 @@ The objectives of the study were to:
 
 Research Question:
 
-Which clinical and demographic factors best predict diabetes risk, and how does regularisation influence model performance when the predictor space becomes large? #
+Which clinical and demographic factors best predict diabetes risk, and how does regularisation influence model performance when the predictor space becomes large? 
 
 ---
 ## Dataset
